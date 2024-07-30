@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Image
-        className="mt-[48px]"
+        className="mt-[48px] mb-[54px]"
         src={imageLogo}
         width={119}
         height={28}
