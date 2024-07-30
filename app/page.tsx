@@ -22,6 +22,8 @@ export default function Home() {
           alt="circles of people"
         />
       </div>
+
+      <h1 className="">Group Chat for Everyone</h1>
     </main>
   )
 }
