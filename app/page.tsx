@@ -13,9 +13,9 @@ export default function Home() {
         height={28}
         alt="meet logo"
       />
-      <div className="flex justify-center items-center w-full h-full outline outline-1">
+      <div className="overflow-hidden outline outline-1 outline-blue-500">
         <Image
-          className="w-full scale-[110.5%] mt-[54px]"
+          className="w-full pb-6 scale-[110.5%] origin-top"
           src={imageHero}
           width={414}
           height={153}
