@@ -23,7 +23,7 @@ export default function Home() {
         />
       </div>
 
-      <h1 className="">Group Chat for Everyone</h1>
+      <h1 className="fluid-text-2xl">Group Chat for Everyone</h1>
     </main>
   )
 }

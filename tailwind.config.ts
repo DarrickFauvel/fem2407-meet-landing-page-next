@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        ["fem-fluid-h1"]: "clamp(2.75rem, 1.878vw + 2.31rem, 4rem)",
+        ["fem-fluid-h2"]: "",
+        ["fem-fluid-overline"]: "",
+        ["fem-fluid-body"]: "clamp(1rem, 0.188vw + 0.956rem, 1.125rem)",
+      },
+      lineHeight: {
+        ["fem-fluid-body"]: "clamp(1.624rem, -0.001vw + 1.625rem, 1.625rem)",
+      },
       colors: {
         ["fem-blue-munsell"]: "#4D96A9",
         ["fem-non-photo-blue"]: "#8FE3F9",
