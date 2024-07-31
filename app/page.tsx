@@ -5,25 +5,23 @@ import imageHero from "@/assets/images/tablet/image-hero.png"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <Image
-        className="mt-[48px] mb-[54px]"
-        src={imageLogo}
-        width={119}
-        height={28}
-        alt="meet logo"
-      />
-      <div className="overflow-hidden outline outline-1 outline-blue-500">
-        <Image
-          className="w-full pb-6 scale-[110.5%] origin-top"
-          src={imageHero}
-          width={414}
-          height={153}
-          alt="circles of people"
-        />
+    <main className="min-h-screen flex flex-col items-center">
+      <Image className="mt-[48px] mb-[54px]" src={imageLogo} alt="meet logo" />
+
+      <div className="hero-image-container">
+        <Image className="hero-image" src={imageHero} alt="circles of people" />
       </div>
 
-      <h1 className="fluid-text-2xl">Group Chat for Everyone</h1>
+      <div className=" flex flex-col gap-6 px-6 pt-12">
+        <h1 className="text-fem-fluid-h1 font-black leading-none text-center text-balance">
+          Group Chat for Everyone
+        </h1>
+
+        <p className="text-fem-fluid-body leading-fem-fluid-body font-medium text-fem-cool-gray text-center">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+      </div>
     </main>
   )
 }
