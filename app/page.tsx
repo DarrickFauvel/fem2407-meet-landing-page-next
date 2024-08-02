@@ -76,7 +76,7 @@ export default function Home() {
         <span className="uppercase text-fem-fluid-body font-black text-fem-blue-munsell tracking-[4px]">
           Built for modern use
         </span>
-        <h2 className="text-fem-fluid-h2 text-fem-space-cadet font-black text-balance text-center pt-6">
+        <h2 className="text-fem-fluid-h2 text-fem-space-cadet font-black text-balance text-center pt-6 leading-10">
           Smarter meetings, all in one place
         </h2>
         <p className="text-center text-fem-cool-gray font-medium text-balance mt-8">
