@@ -88,27 +88,29 @@ export default function Home() {
 
       <SectionNumber>02</SectionNumber>
 
-      <div className="relative bg-fem-blue-munsell w-[375px] h-[428px] mb-32 -mt-7 -z-10">
-        <Image
-          className="absolute inset-0 opacity-15"
-          src={imageFooterMobile}
-          width={375}
-          height={428}
-          alt="woman with headphones"
-        />
+      <div className="relative bg-fem-blue-munsell w-[375px] h-[428px] px-6 mb-32 -mt-7">
+        <div className="absolute inset-0 opacity-25 z-0">
+          <Image
+            className="w-full h-full object-cover opacity-25"
+            src={imageFooterMobile}
+            width={375}
+            height={428}
+            alt="woman with headphones"
+          />
+        </div>
 
-        <h2 className="text-fem-fluid-h2 font-black text-balance text-center text-white pt-6">
-          Smarter meetings, all in one place
-        </h2>
-        <p className="text-center text-white font-medium text-balance mt-8">
-          Send messages, share files, show your screen, and record your meetings
-          — all in one workspace. Control who can join with invite-only team
-          access, data encryption, and data export.
-        </p>
-
-        <Button url="#">
-          Download <span>v1.3</span>
-        </Button>
+        <div className="relative z-10 flex flex-col items-center">
+          <h2 className="text-fem-fluid-h2 font-black text-center text-white pt-20 leading-10">
+            Experience more together
+          </h2>
+          <p className="text-lg text-center text-white font-medium mt-6 mb-8 leading-[1.44]">
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <Button url="#" bgColor="purple">
+            Download <span className="text-fem-mauve">v1.3</span>
+          </Button>
+        </div>
       </div>
     </main>
   )
