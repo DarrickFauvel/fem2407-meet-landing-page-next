@@ -4,13 +4,9 @@ import Hero from "./components/hero";
 import Logo from "@/components/logo";
 import Button from "@/components/logo/button";
 
-import imageWomanInVideocall from "@/assets/images/desktop/image-woman-in-videocall.jpg";
-import imageWomenVideoChatting from "@/assets/images/desktop/image-women-videochatting.jpg";
-import imageMenInMeeting from "@/assets/images/desktop/image-men-in-meeting.jpg";
-import imageManTexting from "@/assets/images/desktop/image-man-texting.jpg";
-import imageFooterMobile from "@/assets/images/mobile/image-footer.jpg";
-import imageFooterDesktop from "@/assets/images/desktop/image-footer.jpg";
 import HomeSection from "./components/section";
+import FooterImage from "./components/footer-image";
+import FourImages from "./components/four-images";
 
 export default function Home() {
   return (
@@ -41,36 +37,7 @@ export default function Home() {
       </div>
 
       <HomeSection sectionNumber={1}>
-        <div className="mt-16 grid grid-cols-1 gap-6 min-[375px]:grid-cols-2 md:grid-cols-4">
-          <Image
-            className="rounded-lg"
-            src={imageWomanInVideocall}
-            width={151}
-            height={143}
-            alt="woman video chatting"
-          />
-          <Image
-            className="rounded-lg"
-            src={imageWomenVideoChatting}
-            width={151}
-            height={143}
-            alt="women video chatting"
-          />
-          <Image
-            className="rounded-lg"
-            src={imageMenInMeeting}
-            width={151}
-            height={143}
-            alt="men in meeting"
-          />
-          <Image
-            className="rounded-lg"
-            src={imageManTexting}
-            width={151}
-            height={143}
-            alt="man texting"
-          />
-        </div>
+        <FourImages />
 
         <div className="mt-16 flex flex-col items-center px-6">
           <span className="text-fem-fluid-body font-black uppercase tracking-[4px] text-fem-blue-munsell">
@@ -91,23 +58,8 @@ export default function Home() {
       </HomeSection>
 
       <HomeSection sectionNumber={2}>
-        <div className="relative -mt-7 mb-32 h-[428px] bg-fem-blue-munsell px-6 lg:h-[308px]">
-          <div className="absolute inset-0 z-0 opacity-25">
-            <Image
-              className="h-full w-full object-cover opacity-25 lg:hidden"
-              src={imageFooterMobile}
-              width={375}
-              height={428}
-              alt="woman with headphones"
-            />
-            <Image
-              className="hidden h-full w-full object-cover opacity-25 lg:block"
-              src={imageFooterDesktop}
-              width={375}
-              height={428}
-              alt="woman with headphones"
-            />
-          </div>
+        <div className="relative -mt-7 mb-32 h-[428px] w-full bg-fem-blue-munsell px-6 lg:h-[308px]">
+          <FooterImage />
 
           <div className="relative z-10 flex flex-col items-center">
             <h2 className="pt-20 text-center text-fem-fluid-h2 font-black leading-10 text-white">
