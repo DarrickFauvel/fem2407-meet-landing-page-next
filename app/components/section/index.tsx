@@ -1,15 +1,15 @@
-import { ReactNode } from "react"
+import { ReactNode } from "react";
 
-import SectionNumber from "../section-number"
-import padWithLeadingZeros from "@/app/helpers/padWithLeadingZeros"
+import SectionNumber from "../section-number";
+import padWithLeadingZeros from "@/app/helpers/padWithLeadingZeros";
 
 type HomeSectionProps = {
-  children: ReactNode
-  sectionNumber: number
-}
+  children: ReactNode;
+  sectionNumber: number;
+};
 
 const HomeSection = ({ children, sectionNumber }: HomeSectionProps) => {
-  const formattedSectionNumber = padWithLeadingZeros(sectionNumber, 2)
+  const formattedSectionNumber = padWithLeadingZeros(sectionNumber, 2);
 
   return (
     <article className="flex flex-col items-center">
@@ -17,6 +17,6 @@ const HomeSection = ({ children, sectionNumber }: HomeSectionProps) => {
 
       {children}
     </article>
-  )
-}
-export default HomeSection
+  );
+};
+export default HomeSection;
