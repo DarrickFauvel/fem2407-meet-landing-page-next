@@ -1,13 +1,13 @@
 "use client"
-import Link from "next/link"
+
 import { ReactNode, MouseEvent } from "react"
+import Link from "next/link"
 
 type ButtonProps = { children: ReactNode; url: string; bgColor: string }
 
 const Button = ({ children, url, bgColor }: ButtonProps) => {
   const handleClick = (e: MouseEvent) => {
     e.preventDefault()
-    console.log(url)
   }
 
   const btnPropsGreen = {
