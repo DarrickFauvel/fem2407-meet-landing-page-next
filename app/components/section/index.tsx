@@ -12,7 +12,7 @@ const HomeSection = ({ children, sectionNumber }: HomeSectionProps) => {
   const formattedSectionNumber = padWithLeadingZeros(sectionNumber, 2);
 
   return (
-    <article className="flex flex-col items-center">
+    <article className="flex w-full flex-col items-center">
       <SectionNumber>{formattedSectionNumber}</SectionNumber>
 
       {children}
