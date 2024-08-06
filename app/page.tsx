@@ -58,15 +58,15 @@ export default function Home() {
       </HomeSection>
 
       <HomeSection sectionNumber={2}>
-        <div className="relative -mt-7 mb-32 h-[428px] w-full bg-fem-blue-munsell px-6 lg:h-[308px]">
+        <div className="relative -mt-7 h-[428px] w-full bg-fem-blue-munsell px-6 lg:h-[308px]">
           <FooterImage />
 
-          <div className="relative z-10 flex flex-col items-center">
-            <h2 className="pt-20 text-center text-fem-fluid-h2 font-black leading-10 text-white">
+          <div className="relative z-10 flex h-full flex-col items-center justify-center gap-9 lg:flex-row lg:gap-24">
+            <h2 className="text-center text-fem-fluid-h2 font-black leading-10 text-white">
               Experience more together
             </h2>
 
-            <p className="mb-8 mt-6 text-center text-lg font-medium leading-[1.44] text-white">
+            <p className="text-center text-lg font-medium leading-[1.44] text-white">
               Stay connected with reliable HD meetings and unlimited one-on-one
               and group video sessions.
             </p>
