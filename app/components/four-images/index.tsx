@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 import imageWomanInVideocall from "@/assets/images/desktop/image-woman-in-videocall.jpg";
 import imageWomenVideoChatting from "@/assets/images/desktop/image-women-videochatting.jpg";
 import imageMenInMeeting from "@/assets/images/desktop/image-men-in-meeting.jpg";
 import imageManTexting from "@/assets/images/desktop/image-man-texting.jpg";
+
+type Image = {
+  src: string | StaticImageData;
+  alt: string;
+};
 
 const FourImages = () => {
   const images = [
@@ -25,14 +30,14 @@ const FourImages = () => {
     },
   ];
 
-  const renderImages = images.map((image) => (
+  const renderImages = images.map((image: Image) => (
     <Image
       className="rounded-lg"
       src={image.src}
       width={151}
       height={143}
       alt={image.alt}
-      key={image.src}
+      key={image.alt}
     />
   ));
 
