@@ -1,6 +1,6 @@
 import Button from "@/components/logo/button";
 
-const Cta = () => {
+const CallToAction = () => {
   return (
     <div className="flex max-w-[540px] flex-col items-center gap-6 px-6 pt-12">
       <h1 className="text-balance text-center text-fem-fluid-h1 font-black leading-none">
@@ -24,4 +24,4 @@ const Cta = () => {
     </div>
   );
 };
-export default Cta;
+export default CallToAction;

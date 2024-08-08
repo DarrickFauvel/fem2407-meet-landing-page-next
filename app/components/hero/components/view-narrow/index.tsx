@@ -1,6 +1,6 @@
 import Image from "next/image";
 import imageHero from "@/assets/images/tablet/image-hero.png";
-import Cta from "../cta";
+import Cta from "../call-to-action";
 
 const ViewNarrow = () => {
   return (
