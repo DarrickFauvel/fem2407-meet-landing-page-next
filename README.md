@@ -37,7 +37,7 @@ desktop<br>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/meet-landing-page---tailwind-css-nextjs-MWz_x_c3X9](https://www.frontendmentor.io/solutions/meet-landing-page---tailwind-css-nextjs-MWz_x_c3X9)
 - Live Site URL: [https://fem2407-meet-landing-page-next.vercel.app/](https://fem2407-meet-landing-page-next.vercel.app/)
 
 ## My process
