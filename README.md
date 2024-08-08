@@ -27,13 +27,13 @@ Users should be able to:
 ### Screenshot
 
 mobile<br>
-<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-mobile.png?raw=true" width="200" />
+<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-mobile.jpeg?raw=true" width="200" />
 <br>
 tablet<br>
-<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-tablet.png?raw=true" width="300" />
+<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-tablet.jpeg?raw=true" width="300" />
 <br>
 desktop<br>
-<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-desktop.png?raw=true" width="400" />
+<img src="https://github.com/DarrickFauvel/fem2407-meet-landing-page-next/blob/main/screenshot-desktop.jpeg?raw=true" width="400" />
 
 ### Links
 
