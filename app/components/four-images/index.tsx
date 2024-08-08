@@ -32,7 +32,7 @@ const FourImages = () => {
 
   const renderImages = images.map((image: Image) => (
     <Image
-      className="rounded-lg"
+      className="rounded-lg xl:w-[255px]"
       src={image.src}
       width={151}
       height={143}
