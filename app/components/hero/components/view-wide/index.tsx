@@ -1,6 +1,6 @@
 import imageHeroLeft from "@/assets/images/desktop/image-hero-left.png";
 import imageHeroRight from "@/assets/images/desktop/image-hero-right.png";
-import Cta from "../cta";
+import CallToAction from "../call-to-action";
 import Image from "next/image";
 
 const ViewWide = () => {
@@ -13,7 +13,9 @@ const ViewWide = () => {
           alt="circles of people"
         />
       </div>
-      <Cta />
+
+      <CallToAction />
+
       <div className="relative">
         <Image
           className="absolute aspect-[1.3/1] w-full origin-top scale-[110.5%]"
