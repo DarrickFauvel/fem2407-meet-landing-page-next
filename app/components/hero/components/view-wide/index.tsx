@@ -8,7 +8,7 @@ const ViewWide = () => {
     <div className="hidden w-full max-w-[1440px] grid-cols-3 gap-4 overflow-hidden lg:grid">
       <div className="relative">
         <Image
-          className="absolute -left-8"
+          className="absolute -left-8 top-0"
           src={imageHeroLeft}
           alt="circles of people"
         />
@@ -18,7 +18,7 @@ const ViewWide = () => {
 
       <div className="relative">
         <Image
-          className="absolute -right-8"
+          className="absolute -right-8 top-0"
           src={imageHeroRight}
           alt="circles of people"
         />
