@@ -2,7 +2,7 @@ import Button from "@/components/logo/button";
 
 const CallToAction = () => {
   return (
-    <div className="flex max-w-[540px] flex-col items-center gap-6 px-6 pt-12">
+    <div className="flex flex-col items-center gap-6 px-6 pt-12 lg:w-full lg:px-0">
       <h1 className="text-balance text-center text-fem-fluid-h1 font-black leading-none text-fem-space-cadet">
         Group Chat for Everyone
       </h1>
