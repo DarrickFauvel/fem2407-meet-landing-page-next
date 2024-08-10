@@ -7,7 +7,7 @@ const CallToAction = () => {
         Group Chat for Everyone
       </h1>
 
-      <p className="max-w-[45ch] pt-[24px] text-center text-fem-fluid-body font-medium leading-fem-fluid-body text-fem-cool-gray sm:max-w-[54ch] lg:max-w-[540px] lg:pt-[34px]">
+      <p className="max-w-[45ch] pt-[24px] text-center text-fem-fluid-body font-medium leading-fem-fluid-body text-fem-cool-gray sm:max-w-[54ch] lg:max-w-[540px] lg:pt-[34px] lg:text-lg">
         Meet makes it easy to connect with others face-to-face virtually and
         collaborate across any device.
       </p>
