@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ViewWide = () => {
   return (
-    <div className="hidden w-full max-w-[1440px] grid-cols-3 gap-4 overflow-hidden lg:grid">
+    <div className="hero-grid hidden w-full max-w-[1440px] grid-cols-3 gap-4 overflow-hidden lg:grid">
       <div className="relative">
         <Image
           className="absolute -left-8 top-0"
