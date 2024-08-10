@@ -18,7 +18,7 @@ const ViewWide = () => {
 
       <div className="relative">
         <Image
-          className="absolute -right-8 top-0"
+          className="absolute -right-8 top-[55px]"
           src={imageHeroRight}
           alt="circles of people"
         />
