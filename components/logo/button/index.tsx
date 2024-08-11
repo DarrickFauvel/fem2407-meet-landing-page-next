@@ -29,7 +29,7 @@ const Button = ({ children, url, bgColor }: ButtonProps) => {
 
   return (
     <Link
-      className={`${btnClasses.base} ${btnClasses.hover} rounded-full px-10 py-4 text-base text-fem-fluid-body font-black text-white transition-all duration-300`}
+      className={`${btnClasses.base} ${btnClasses.hover} rounded-full px-10 py-4 text-fem-fluid-body text-sm font-black text-white transition-all duration-300`}
       href={url}
       onClick={handleClick}
     >
