@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${red_hat_display.className} bg-fem-seasalt`}>
+      <body
+        className={`${red_hat_display.className} flex flex-col items-center bg-fem-seasalt`}
+      >
         {children}
       </body>
     </html>
